@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="icon" href="Console.jpeg">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Rubik+Mono+One&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Rock, Paper, Scissors</h1>
+
+    <!-- Scoreboard to track scores -->
+    <div class="scoreboard" id="scoreboard">
+        Player: 0 | Computer: 0
+    </div>
+
+    <!-- Player choice buttons -->
+    <div class="choices">
+        <button class="button" onclick="playGame('rock')">Rock</button>
+        <button class="button" onclick="playGame('paper')">Paper</button>
+        <button class="button" onclick="playGame('scissors')">Scissors</button>
+    </div>
+
+    <!-- Display result of the game -->
+    <div class="result" id="result">Make your choice!</div>
+
+</body>
+    <script src="index.js"></script>
+
+</html>
