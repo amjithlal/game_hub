@@ -1,0 +1,70 @@
+.rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .kanit-regular {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+ h1,h2{
+    text-align: center;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+p {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+body {
+   background-image: url("bg.jpeg");
+    color: aliceblue;
+   font-size: 100%;
+   background-position: center;
+   text-align: justify;
+}
+
+.bg {
+    background-image: url("bg2.jpeg");
+    opacity: 0.5;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.bg:hover {
+    opacity: 1;
+}
+
+button {
+    background-color: #18f98f;
+    padding: 5px 12.5px;
+    font-size: 15px;
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 2%;
+    height: 50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #089654;
+}
